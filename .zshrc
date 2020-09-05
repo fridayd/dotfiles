@@ -43,7 +43,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
 
 # Homebrew zsh-completions
-#fpath=(/usr/local/share/zsh-completions $fpath);
+fpath=(/usr/local/share/zsh-completions $fpath);
 
 # fortune, of course!
 echo ""
