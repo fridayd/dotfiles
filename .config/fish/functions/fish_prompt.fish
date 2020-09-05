@@ -1,7 +1,6 @@
 # A modified 'Sorin' prompt with time stamp and vcs status.
 function fish_prompt --description 'Write out the prompt'
 
-    set -l color_cwd
     set -l suffix
 
     switch "$USER"
@@ -12,10 +11,10 @@ function fish_prompt --description 'Write out the prompt'
     end
 
     # PWD
-    set_color $color_cwd
+    set_color blue
     echo -n (prompt_pwd)
-    set_color normal
 
     # Suffix
+    set_color normal
     echo -n " $suffix "
 end
