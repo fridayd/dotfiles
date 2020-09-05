@@ -1,3 +1,5 @@
+set fish_greeting # no greeting
+
 alias la 'ls -a' # an alias, because I want to type 'l<RET>', not 'l<SPC><RET>'
 alias l  'ls'    # ditto
 
