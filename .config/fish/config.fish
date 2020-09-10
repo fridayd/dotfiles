@@ -4,17 +4,20 @@ set fish_greeting # no greeting
 alias l   'exa -F'
 alias la  'exa -a'
 alias ll  'exa -l --header --git'
-alias llt 'exa -l --header --git --tree' 
+alias lla 'exa -la --header --git'
+alias llt 'exa -la --header --git --tree' 
 
 # Abbreviations. Good for commands that will always be followed by a space.
 abbr g 'git'
 abbr v 'vi'
 abbr b 'bat'
-abbr pg 'ps xa|rg'
+abbr pg 'ps au|rg'
 
-abbr cog 'git --git-dir=$HOME/.cfg/ --work-tree=$HOME' # git for my config files
+abbr cg 'git --git-dir=$HOME/.cfg/ --work-tree=$HOME' # git for my config files
 
-alias em 'emacsclient -n -c -a ""'
+#alias em 'emacsclient -n -c -a ""'
+abbr e 'emacs'
+abbr em 'open -a emacs'
 
 set FZF_TMUX_HEIGHT 100%
 set FZF_DEFAULT_COMMAND "fd . $HOME"
