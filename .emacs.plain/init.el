@@ -135,9 +135,9 @@
                     :underline nil)
 
 ;;; themes
-(use-package tao-theme)
-(use-package color-theme-sanityinc-tomorrow)
-(use-package color-theme-sanityinc-solarized)
-(use-package ayu-theme)
+;(use-package tao-theme)
+;(use-package color-theme-sanityinc-tomorrow)
+;(use-package color-theme-sanityinc-solarized)
+;(use-package ayu-theme)
 ;(load-theme 'sanityinc-solarized-light)
-(load-theme 'ayu-dark)
+;(load-theme 'ayu-dark)

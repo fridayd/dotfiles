@@ -1,4 +1,5 @@
 (("nnd" . ((user-emacs-directory . "~/.emacs.nnd")))
+ ("bare" . ((user-emacs-directory . "~/.emacs.d")))
  ("doom" . ((user-emacs-directory . "~/.emacs.doom")))
  ("plain" . ((user-emacs-directory . "~/.emacs.plain")))
  ("default" . ((user-emacs-directory . "~/.emacs.doom"))))
